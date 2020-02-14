@@ -1,6 +1,21 @@
 body{
-background-color:green:
+background-color:orangered;
+background-size : cover;
 }
 body{
     text-align: center;
+}
+h1{
+    color:rgb(20, 20, 20);
+}
+p{
+    font-family: verdana;
+    font-size:20px;
+    color:rgb(14, 13, 13)
+}
+h4{
+    font-size: 20px;
+}
+h3{
+    font-size:20;
 }
