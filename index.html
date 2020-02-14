@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Akan Naming-system</title>
+        
+        <link href="styles.css" rel="stylesheet" type="text/css">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="container">
+            <div class="jumbotron">
         <h1>How it works?</h1>
         <p1>Once you have entered your year of birth, month, date and your gender,it will show your Name 
            in an Akan naming system since they used days of the week to name children when they were born  
@@ -19,17 +21,31 @@
         <l2>Here is more? <p>Akan People-<a href="https://www.google.com/search?q=akan+ghana&oq=akan+ghana&aqs=chrome..69i57j0l7.12520j0j7&sourceid=chrome&ie=UTF-8">Akan</a>.</p>
         </l2>
         </div>
-        <h3>Input Gender</h3>
+        <h6>Enter your Name</h6>
+ 
            <form>
+            First name:<br>
+            <input type="text" name="firstname" value="First Name"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Last Name"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">           
+           </form>
+           <form>
+        <h3>Input Gender</h3>       
                <input type="radio" name="gender" value="male" checked> Male<br>
                <input type="radio" name="gender" value="female"> Female<br>
+               <input type="submit" value="Submit">
+               <input type="reset">
            </form>
         <h4>Input date of birth</h4>
         <form>
-            Enter a date after 1940-01-01:
+            Enter a date:
             <input type="date" name="bday" min="1940-01-02"><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
           </form>
-        <h5>click to submit</h5>  
+          <img style="float:left" src="akan.jpg"> 
     </body>
 
 </html>
