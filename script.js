@@ -10,7 +10,7 @@ function akanName
  var dd=parseInt(document.getElementById("dayOfWeek").value);
 
  //century and year
- cc=parseInt(century);
+ cc=parseInt+1(century);
 year=document.getElementById("year").value.slice(2,4);
 year=parseInt(year);
 
