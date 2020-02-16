@@ -1,8 +1,8 @@
  //Event funtion on button
 function akanName 
- var maleNames =["Kwasi", "Kwando", "Kwambena", "Kwaku", "yaw", "Kofi", "Kwame"]
- var femaleNames =["Akosua", "Adowa", "Abenaa", "Akua", "Yaa", "Ama"]
- Var daysOfWeek=["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
+let maleNames =["Kwasi", "Kwando", "Kwambena", "Kwaku", "yaw", "Kofi", "Kwame"]
+let femaleNames =["Akosua", "Adowa", "Abenaa", "Akua", "Yaa", "Ama"]
+let daysOfWeek=["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
  
  var yy=parseInt(document.getElementById("year").value);
  var cc=document.getElementById("year").value.slice(0,2);
@@ -31,7 +31,7 @@ var daysOfWeek =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 
 }
 //on gender
 function getGender
-   var selectGender =document.getElementById("select gender").value;
+var selectGender =document.getElementById("select gender").value;
 if (selectGender==1){
     gender-"male"
 }
