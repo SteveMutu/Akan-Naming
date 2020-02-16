@@ -29,3 +29,17 @@ else {
 var daysOfWeek =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
     return daysOfWeek;
 }
+//on gender
+function getGender
+   var selectGender =document.getElementById("select gender").value;
+if (selectGender==1){
+    gender-"male"
+}
+else if(selectGender==2){
+    gender ="female"
+}
+else{
+    alert("select Gender");
+}
+return gender;
+}
