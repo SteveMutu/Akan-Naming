@@ -42,4 +42,3 @@ else{
     alert("select Gender");
 }
 return gender;
-}
