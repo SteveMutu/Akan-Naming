@@ -1,5 +1,5 @@
  //Event funtion on button
-
+function akanName 
  var maleNames =["Kwasi", "Kwando", "Kwambena", "Kwaku", "yaw", "Kofi", "Kwame"]
  var femaleNames =["Akosua", "Adowa", "Abenaa", "Akua", "Yaa", "Ama"]
  Var daysOfWeek=["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
