@@ -1,8 +1,8 @@
  //Event funtion on button
-function akanName 
-let maleNames =["Kwasi", "Kwando", "Kwambena", "Kwaku", "yaw", "Kofi", "Kwame"]
-let femaleNames =["Akosua", "Adowa", "Abenaa", "Akua", "Yaa", "Ama"]
-let daysOfWeek=["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
+function akanName(){
+var maleNames =["Kwasi", "Kwando", "Kwambena", "Kwaku", "yaw", "Kofi", "Kwame"]
+var femaleNames =["Akosua", "Adowa", "Abenaa", "Akua", "Yaa", "Ama"]
+var daysOfWeek=["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
  
  var yy=parseInt(document.getElementById("year").value);
  var cc=document.getElementById("year").value.slice(0,2);
@@ -42,3 +42,4 @@ else{
     alert("select Gender");
 }
 return gender;
+}

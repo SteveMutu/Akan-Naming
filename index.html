@@ -25,19 +25,19 @@
         <div class= "row">
             <div class="col-md-4">
         <h3>Input Gender</h3>
-            <form id="select gender">    
-               <input type="radio" name="gender" value1="male" checked> Male<br>
-               <input type="radio" name="gender" value2="female"checked>Female<br>
+            <form id="akanForm">    
+               <input id="rad2" type="radio" name="gender" value="1" required/> Male<br>
+               <input id="rad1" type="radio" name="gender" value="0" required/>Female<br>
             </form>
             </div> 
             <div class="col-md-3">      
                 <h4>Input date of birth</h4>
+                <p akan name id="display"></p>
                 <div>
-                    <form action="">
+                    <form action="" method="post">
                     Enter a date:
                     <input type="date" id="bday" min="1940-01-02"><br>
-                    <input type="submit" value="Submit" onclick="akanNames()">
-                    <input type="reset">
+                    <button type="button" onclick="output()">SUBMIT</button> 
                     </form>
                     </div>
                 </div>   
