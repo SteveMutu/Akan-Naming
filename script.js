@@ -36,44 +36,44 @@ function akanFemale() {
         return "Your Akan name is " + femaleArray[0];
     }
     else if (weekday() === 1) {
-        return "Your Akan name is " + femaleArray[1];
+        return "And Your Akan name is " + femaleArray[1];
     } else if (weekday() === 2) {
-        return "Your Akan name is " + femaleArray[2];
+        return "And Your Akan name is " + femaleArray[2];
     }
     else if (weekday() === 3) {
-        return "Your Akan name is " + femaleArray[3];
+        return "AndYour Akan name is " + femaleArray[3];
     }
     else if (weekday() === 4) {
-        return "Your Akan name is " + femaleArray[4];
+        return "And Your Akan name is " + femaleArray[4];
     }
     else if (weekday() === 5) {
-        return "Your Akan name is " + femaleArray[5];
+        return "And Your Akan name is " + femaleArray[5];
     }
     else {
-        return "Your Akan name is " + femaleArray[6];
+        return " And Your Akan name is " + femaleArray[6];
     }
 }
 function akanMale() {
     var maleArray = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];//sunday has index 0
     if (weekday() === 0) {
-        return "Your Akan name is " + maleArray[0];
+        return "And Your Akan name is " + maleArray[0];
     }
     else if (weekday() === 1) {
-        return "Your Akan name is " + maleArray[1];
+        return "And Your Akan name is " + maleArray[1];
     } else if (weekday() === 2) {
-        return "Your Akan name is " + maleArray[2];
+        return "And Your Akan name is " + maleArray[2];
     }
     else if (weekday() === 3) {
-        return "Your Akan name is " + maleArray[3];
+        return "And Your Akan name is " + maleArray[3];
     }
     else if (weekday() === 4) {
-        return "Your Akan name is " + maleArray[4];
+        return "And Your Akan name is " + maleArray[4];
     }
     else if (weekday() === 5) {
-        return "Your Akan name is " + maleArray[5];
+        return "And Your Akan name is " + maleArray[5];
     }
     else {
-        return "Your Akan name is " + maleArray[6];
+        return " And Your Akan name is " + maleArray[6];
     }
 }
 //output function
